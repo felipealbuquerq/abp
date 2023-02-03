@@ -79,17 +79,17 @@ abp new TodoApp{{if UI=="Blazor"}} -u blazor{{else if UI=="BlazorServer"}} -u bl
 
 {{if UI=="NG"}}
 
-This will create a new solution, named *TodoApp* with `angular` and `aspnet-core` folders. Once the solution is ready, open the ASP.NET Core solution in your favorite IDE.
+Isso criará uma nova solução, chamada *TodoApp* com as pastas `angular` e `aspnet-core`. Assim que a solução estiver pronta, abra a solução ASP.NET Core em sua IDE favorita.
 
 {{else}}
 
-This will create a new solution, named *TodoApp*. Once the solution is ready, open it in your favorite IDE.
+Isso criará uma nova solução, chamada *TodoApp*. Assim que a solução estiver pronta, abra-a em sua IDE favorita.
 
 {{end}}
 
-### Create the Database
+### Criar o Banco de Dados
 
-If you are using Visual Studio, right click on the `TodoApp.DbMigrator` project, select *Set as StartUp Project*, then hit *Ctrl+F5* to run it without debugging. It will create the initial database and seed the initial data.
+Se você estiver usando o Visual Studio, clique com o botão direito do mouse no projeto `TodoApp.DbMigrator`, selecione *Set as StartUp Project* ou *Definir como Projeto de Inicialização* em português, então pressione *Ctrl+F5* para executá-lo sem depurar, ou seja, sem "debugar" (risos). It will create the initial database and seed the initial data.
 
 {{if DB=="EF"}}
 
