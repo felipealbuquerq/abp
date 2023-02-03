@@ -87,13 +87,13 @@ Isso criará uma nova solução, chamada *TodoApp*. Assim que a solução estive
 
 {{end}}
 
-### Criar o Banco de Dados
+### Criando o Banco de Dados
 
-Se você estiver usando o Visual Studio, clique com o botão direito do mouse no projeto `TodoApp.DbMigrator`, selecione *Set as StartUp Project* ou *Definir como Projeto de Inicialização* em português, então pressione *Ctrl+F5* para executá-lo sem depurar, ou seja, sem "debugar" (risos). It will create the initial database and seed the initial data.
+Se você estiver usando o Visual Studio, clique com o botão direito do mouse no projeto `TodoApp.DbMigrator`, selecione *Set as StartUp Project* ou *Definir como Projeto de Inicialização* em português, então pressione *Ctrl+F5* para executá-lo sem depurar, ou seja, sem "debugar" (risos). Isso criará o banco de dados inicial e preencherá os dados iniciais.
 
 {{if DB=="EF"}}
 
-> Some IDEs (e.g. Rider) may have problems for the first run since *DbMigrator* adds the initial migration and re-compiles the project. In this case, open a command-line terminal in the folder of the `.DbMigrator` project and execute the `dotnet run` command.
+> Algumas IDEs (por exemplo, Rider) podem ter problemas na primeira execução, já que o DbMigrator adiciona a migração inicial e recompila o projeto. Neste caso, abra um terminal de linha de comando na pasta do projeto .DbMigrator e execute o comando dotnet run.
 
 {{end}}
 
